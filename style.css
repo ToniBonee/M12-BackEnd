@@ -1,0 +1,239 @@
+
+		footer,header{
+			color: white;
+		} 
+		section{
+			padding: 10px;
+		}
+		#buscar{
+			margin-top: 15px;
+			margin-left: 15px;
+		}
+		#sec2{
+			background-color: white;
+			color: blueviolet;
+			border: solid 1px black;
+		}
+		#nav{
+            background-color: white;
+            border: solid blueviolet 2px;
+            padding: 5px;
+            margin: 5px;
+            color: blueviolet;
+            width: 200px;
+            
+         }
+          body{
+            background-color:#262424 ;
+            color: blueviolet;
+
+        }
+        
+
+        #comp{
+            background-color: white;
+        }
+        
+        
+       
+        #pr1,#pr2,#pr3{
+            margin: 40px;
+            border: solid blueviolet;
+
+        }
+        #logo{
+            border: solid blueviolet 2px;
+
+        }
+        
+        #reg{
+            padding-top: 100px;
+            border-width: 1px;
+            border: solid blueviolet;
+        }
+        hr{
+           border-color: blueviolet;  
+            border-width: 1px;
+        }
+        #hrfo{
+            margin-top: 150px;
+           
+        }
+        
+         
+        
+        #form{
+            background-color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            padding: 50px;
+
+        }
+        
+
+        
+        #dat{
+            border: solid blueviolet 2px;
+            padding: 100px;
+            
+        }#inicio{
+            color: blueviolet;
+         }
+         #inicio:hover{
+            color: black;
+         }#envio{
+            background-color: blueviolet;
+            color: white;
+            border-radius: 5px;
+           
+            margin-top: 20px;
+         } 
+         #envio:hover{
+            background-color: white;
+            color: blueviolet;
+         }
+		
+
+		#sesion{
+			border: white;
+			color: blueviolet;
+			background-color: white;
+		}
+		#sesion:hover{
+			color: black;
+		}
+		#redes{
+			width: 40px;
+			height: 40px;
+		}
+		#contacto{
+			color: white;
+		}
+		#main{
+			background-color: white;
+		}
+		#button{
+			background-color: white;
+			border: solid blueviolet 1px;
+			color: blueviolet;
+			padding: 20px;
+		}
+		#informacion,#direccion,#pedidos{
+			border: solid blueviolet 1px;
+		}
+		#Imagen{
+			border: solid blueviolet 1px;
+		}
+	
+		#head{
+			
+			background-image: url("img/fondo.jpg");
+
+   font-size: 80px;
+    font-family: fantasy;
+    text-shadow: 2px 0px 0px black,
+        0px 2px 2px black,
+        -3px 0px 2px black,
+        2px -2px 0px black;
+    letter-spacing: 2px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+   
+    margin-bottom: 0px;
+    background-attachment: fixed;
+    background-position: center;
+
+		}
+		#titulo{
+			padding: 30px;
+		}
+		#patro{
+			background-color: #B471DE  ;
+				border: solid black 1px;
+				text-align: justify;
+		}
+		
+		#bottProd{
+			height: 450px;
+		}
+		#bottProdCarr{
+			height: 300px;
+		}
+		#param{
+
+			background-color: grey;
+			background-position: center; 
+			background-size: cover;
+		}
+		#imagProd{
+				background-size: cover;
+  				background-position: center;
+  				height: 150px;
+  				width: 150px;
+  				display: block;
+  				margin-left: auto;
+  				margin-right: auto;
+		}
+		a{
+			color: blueviolet;
+		}
+		a:hover{
+			color: black;
+		}
+		
+
+
+input[type='range']::-webkit-slider-runnable-track {
+  width: 200px;
+  height: 1px;
+  background: white;
+}
+input[type='range']::-webkit-slider-thumb {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  margin-top: -7px;
+  background: blueviolet;
+  border: 1px solid blueviolet;
+  border-radius: 25px;
+  z-index: 1;
+}
+.rangeslider{
+    position: relative;
+    height: 60px;
+    width: 210px;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.rangeslider span{
+    position: absolute;
+    margin-top: 35px;
+    left: 0;
+}
+
+.rangeslider .right{
+   position: relative;
+   float: right;
+   margin-right: -5px;
+}
+  input[type='range']:nth-child(1){
+    position:absolute;
+    top:35px !important;
+    overflow:visible !important;
+    height:0;
+  }
+
+  input[type='range']:nth-child(2){
+    position:absolute;
+    top:35px !important;
+    overflow:visible !important;
+    height:0;
+  }
+
+#menuBuscar{
+	color: white;
+}
