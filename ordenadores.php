@@ -116,6 +116,7 @@
         <li>pcbuilder@gmail.com</li>
         <li>602934485</li>
         <li><a href="AboutUs.php" id="contacto">Quienes somos</a></li>
+        <li><a href="AvisoLegal.php" id="contacto">Aviso legal</a></li>
     </ul>
         </section>
          <section class="col-4">

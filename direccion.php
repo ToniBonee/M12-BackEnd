@@ -2,7 +2,7 @@
 $inc = include("con_file.php");
 
 if ($inc) {
-
+	
 	$id =  $_SESSION['id'];
 	$query = "SELECT * FROM clientes  left join datos_envios  on  datos_envios.id_cliente = clientes.id_cliente WHERE clientes.id_cliente = $id";
 	$result = mysqli_query($conex,$query);

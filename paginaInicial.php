@@ -21,13 +21,15 @@
             <section id="sec2" class="col-2">
                 <?php
             	session_start();
+               
             	if (!isset($_SESSION['login'])) {
             		
             		echo"<a href='iniciarUser.php'>Iniciar sesion</a> ";
 
             	}else{
-				
-            		echo("<a href='usuario.php'>"."<button id='sesion'>".$_SESSION['login'])."</button>"."</a>";
+				 $img = $_SESSION['imagen'];
+            		echo"<a class='row' href='usuario.php'>"."<img class='col-3' id='fotoPerfil' style='height: 20px ;
+                    width: 20px;' src='".$img."'>"."<button class='col-4 ' id='sesion'>".$_SESSION['login']."</button>"."</a>";
 					
 			        
             	}
@@ -69,6 +71,7 @@
         <li>pcbuilder@gmail.com</li>
         <li>602934485</li>
         <li><a href="AboutUs.php" id="contacto">Quienes somos</a></li>
+        <li><a href="AvisoLegal.php" id="contacto">Aviso legal</a></li>
     </ul>
         </section>
          <section class="col-4">

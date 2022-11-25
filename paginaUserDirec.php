@@ -65,7 +65,7 @@
  
 			<section id="direccion" class="col-12">
 				<h3>Dirección</h3>
-				<form   id="dat">
+				<form action="gestionIndex.php" method="POST" id="dat">
            			<?php 
 						include("direccion.php");
 					?>
@@ -94,6 +94,7 @@
         <li>pcbuilder@gmail.com</li>
         <li>602934485</li>
         <li><a href="AboutUs.php" id="contacto">Quienes somos</a></li>
+        <li><a href="AvisoLegal.php" id="contacto">Aviso legal</a></li>
     </ul>
         </section>
         <section class="col-4">
